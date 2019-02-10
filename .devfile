@@ -20,5 +20,5 @@ commands:
     actions:
       - type: exec
         tool: che-dev
-        command: cd /projects/che && mvn -Pnative clean install
+        command: cd /projects/che && mvn clean install -Pnative -DskipTests=true
         workdir: /projects/che

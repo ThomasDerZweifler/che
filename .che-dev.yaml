@@ -11,7 +11,7 @@ items:
        image: 'eclipse/che-dev:nightly'
        resources:
          limits:
-           memory: 1536Mi
+           memory: 4Gi
        volumeMounts:
        - mountPath: /projects
          name: projects
